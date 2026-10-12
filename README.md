@@ -29,10 +29,9 @@ Peak control success of the reported Full ReWM run per task (one encoder seed; P
 
 <p align="center"><img src="assets/overview.png" width="100%" alt="ReWorldModel overview"></p>
 
-ReWM is a visual world model with cross-layer MoDA attention. This repository
-contains the full encoder, the five selected task configurations, component
-ablations, controlled LeWM+MoDA comparisons, the official-recipe LeWM baseline,
-GC-IDM control evaluation, and frozen representation diagnostics.
+This repository contains the full encoder, the five selected task configurations,
+component ablations, the controlled standard-block comparison, the official-recipe
+LeWM baseline, GC-IDM control evaluation, and frozen representation diagnostics.
 
 The source is in [`rewm/`](rewm/). Datasets and model checkpoints must be obtained
 separately.
@@ -48,10 +47,13 @@ separately.
 - [Representation diagnostics](#representation-diagnostics)
 - [Experiment settings and verification](#experiment-settings-and-verification)
 - [Licenses](#licenses)
+- [Citation](#citation)
 
 ```text
 ReWM/
   README.md
+  LICENSE
+  assets/               Figures used in this README
   rewm/
     src/                 ReWM encoder, world model, loss and training
     configs/full/        Five task configurations and schedule metadata
@@ -63,6 +65,8 @@ ReWM/
     docs/                Data, protocol and implementation details
     requirements.txt
     SHA256SUMS
+    SOURCE_PROVENANCE.json
+    THIRD_PARTY_NOTICES.md
 ```
 
 ## Installation
@@ -234,7 +238,7 @@ The official and controlled experiments have separate recipes:
 | Protocol | Models | Encoder seeds | GPUs | Global batch | LR | Schedule horizon |
 |---|---|---|---:|---:|---:|---:|
 | Official | Original LeWM | 3072 by default | 1 | 128 | 5e-5 | 100 epochs |
-| Controlled | Reference LeWM / LeWM+MoDA | 78101, 78102, 78103 | 8 | 896 | 2e-4 (`--lr 3.5e-4` for the tuned runs) | 100 epochs |
+| Controlled | Reference LeWM / LeWM+MoDA | 78101, 78102, 78103 | 8 | 896 | 2e-4 (`--lr 3.5e-4` in the tuned-learning-rate comparison) | 100 epochs |
 
 The controlled pair uses weight decay 1e-3 and 16 warmup updates. The insertion
 adds MoDA and RoPE to the standard LeWM block; it is a separate architecture
@@ -305,8 +309,8 @@ uses 50. PushT uses three banks of 100 rollouts, with seeds 42, 93111 and 93112.
 These three banks evaluate one encoder/controller, not three encoder seeds.
 
 Outputs include `z.npz`, `idm.pt`, `idm_history.json`, stage logs,
-`run_manifest.json`, `stage_status.json`, and `summary.json`. PushT and Puzzle
-also write per-bank JSON files. Use a fresh output directory when changing
+`run_manifest.json`, `stage_status.json`, `summary.json`, and one
+`bank<seed>.json` record per rollout bank. Use a fresh output directory when changing
 checkpoint or protocol. The launcher checks saved artifacts before reuse.
 
 See [evaluation.md](rewm/docs/evaluation.md) for action horizons, data splits,
@@ -332,9 +336,10 @@ native prediction metrics.
 
 ## Experiment settings and verification
 
-Full-versus-official compares
-complete recipes, with different learning rates, batches and schedules. Keep
-these results separate from the controlled paired comparison and from ablations.
+The Full configurations are the recipes of the reported runs, one run per task.
+Full-versus-official compares complete recipes, with different learning rates,
+batches and schedules. Keep these results separate from the controlled paired
+comparison and from ablations.
 The full definitions are in [protocols.md](rewm/docs/protocols.md).
 
 Implementation checks include seven-arm 224-pixel forward/backward passes,
@@ -351,11 +356,9 @@ source tree if you want to repeat strict verification after running.
 
 ## Licenses
 
-First-party code in this repository is released under the MIT License (see
-[LICENSE](LICENSE)); the GC-IDM adaptation and the other third-party
-components keep their own licenses.
-Third-party components retain their original licenses. The GC-IDM adaptation
-uses CC BY-NC 4.0; this repository is not covered by a single MIT license.
+First-party code is released under the MIT License ([LICENSE](LICENSE)).
+Third-party components keep their own licenses: the GC-IDM adaptation is
+CC BY-NC 4.0, and the MoDA/FLA and LeWM snapshots carry their original licenses.
 Read [THIRD_PARTY_NOTICES.md](rewm/THIRD_PARTY_NOTICES.md) and the accompanying
 license files before redistributing any component.
 
