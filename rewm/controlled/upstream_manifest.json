@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/lucas-maes/le-wm",
+  "commit": "cad332993a6943519d91931bc5d11429ec4155d9",
+  "files": {
+    "LICENSE": "4882021920cbd61e050e4dc2e02440e9bd36ea4cbc5803e738a2ee3d63502e07",
+    "README.md": "598ec180a74926d389499ebfc99044b7167bcdc3e20f8da0d0f4142df3f68b0f",
+    "eval.py": "91173f832a2ce57365f7f4813322fb353ee4431986687a75fc17da172edfa074",
+    "jepa.py": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96",
+    "module.py": "0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620",
+    "train.py": "bcb67b15f105bd78ab52c5480824a1334f95d841487d2f706ea55b4d5488dbdc",
+    "utils.py": "0793dc4f0c2f27a3ece84e11fd10aa33dce762ca2c5032849c17dea5d95dd09f",
+    "config/eval/cube.yaml": "4a6eddb12b4f9414c51bd9da48a15fe03944d7a6ea49ac6385132eddf45d2af7",
+    "config/eval/pusht.yaml": "5d07527d3012b33cf59f4a5112476bc6780930af81b3874b97cf2ecec911eae4",
+    "config/eval/reacher.yaml": "db07a3fa8da66710ac0846d1acedfb463b49ab25e445a3073c2f5c2c2c789dc1",
+    "config/eval/tworoom.yaml": "7ca6c1094eaf446e2b8decc11bd7e5809d2d34ea5d81d4db06cb17cd4648b266",
+    "config/eval/launcher/local.yaml": "1dda4add0a1632ba41458377e11897cd80ba2508483a82fb6a41f0f88a06b900",
+    "config/eval/solver/adam.yaml": "362755cca34d6221d1bd9a9b2d221f603ab22b7208038c0425c8e389b5fa2c1b",
+    "config/eval/solver/cem.yaml": "797629f829c0d3ad3b9c4e42d46a87f08da0b3845bc433e353fd6274cb0574df",
+    "config/train/lewm.yaml": "3c44d61818c8eefb60baed61b8dbb75f2f36319217030042735d790874e9e9b8",
+    "config/train/data/dmc.yaml": "56605de9a8005f4a6cedb7652e84b4ff9c7993762d6033cb0562d3e5a56b6725",
+    "config/train/data/ogb.yaml": "e87c0eead1ebc288d63a529a315927fe6c1493a3fbb3d531827fea2ce1b77ffe",
+    "config/train/data/pusht.yaml": "b8ba85c0eb145f6131d049f3c0a556430262485d963c28a48954b357da1fc11e",
+    "config/train/data/tworoom.yaml": "6a2349da657fb32eeda653a5796788b22d3ca5bb3cdbb5e650626f0a35f10d67",
+    "config/train/launcher/local.yaml": "417c973380226b2279f360bf0072c357ed147dbf92e0caffda56275bdf73b432"
+  }
+}

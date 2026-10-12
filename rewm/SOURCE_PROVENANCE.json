@@ -1,0 +1,479 @@
+{
+  "scope": "Source identity for traced numerical, training and evaluation files; not an all-results reproduction.",
+  "files": [
+    {
+      "file": "configs/full/cube.yaml",
+      "source_group": "selected_full_recipes",
+      "source_file": "cube.yaml",
+      "source_sha256": "d9a39a26c785219c0fed5b562b6001da2615af87e4d0805dcb595002e3317c46",
+      "release_sha256": "7c531cdbb3b54734236163cd183bf8d2b4cb4575acf78ee40b4c938b72dfb3e6",
+      "relationship": "adapted",
+      "adaptation_note": "Remove private subdir and W&B identity metadata; every other YAML field is unchanged."
+    },
+    {
+      "file": "configs/full/protocols.json",
+      "source_group": "selected_full_recipes",
+      "source_file": "RECIPES.json",
+      "source_sha256": "70b8b33f78c6554de74c90f2798db98fc85129888ba3c2b839f6485a42712d28",
+      "release_sha256": "110aca16b983c36c58845eed17ec588e882d643fa7198e84fb41700030275073",
+      "relationship": "adapted",
+      "adaptation_note": "Retain task/seed/lr/wd/max_epochs/batch_size/global_batch/steps_per_epoch/warmup/schedule/interval; remove private run, anchor and config object paths/hashes; add devices=8 and explicit Full default_stop."
+    },
+    {
+      "file": "configs/full/pusht.yaml",
+      "source_group": "selected_full_recipes",
+      "source_file": "pusht.yaml",
+      "source_sha256": "1f3e8a920d5ddbd8b697e616335377f92f6f9ccad75cfe199685e4def449ebb8",
+      "release_sha256": "52462f92b4e13e3175ce05b8f501be9cad1e97af9093e16e7bedfc6e9f67c1cd",
+      "relationship": "adapted",
+      "adaptation_note": "Remove private subdir and W&B identity metadata; every other YAML field is unchanged."
+    },
+    {
+      "file": "configs/full/puzzle3x3.yaml",
+      "source_group": "selected_full_recipes",
+      "source_file": "puzzle3x3.yaml",
+      "source_sha256": "1b5273d64b0ebf48f0d512c19782f1ec8484ce833693a8e870f969b4aef8672e",
+      "release_sha256": "5b6793de0677fd8ff421d9a24b00962ea5070f5b3fd6929c774177f059a10535",
+      "relationship": "adapted",
+      "adaptation_note": "Remove private subdir and W&B identity metadata; every other YAML field is unchanged."
+    },
+    {
+      "file": "configs/full/reacher.yaml",
+      "source_group": "selected_full_recipes",
+      "source_file": "reacher.yaml",
+      "source_sha256": "00c711cb3d9f16b8969de893f8edd9740fdcc469861f6f224d7a0ec7eb9192ad",
+      "release_sha256": "667b2dc106194495202dd0a507a12278a16ef58e439c67d83c60690f3e4e050a",
+      "relationship": "adapted",
+      "adaptation_note": "Remove private subdir and W&B identity metadata; every other YAML field is unchanged."
+    },
+    {
+      "file": "configs/full/tworoom.yaml",
+      "source_group": "selected_full_recipes",
+      "source_file": "tworoom.yaml",
+      "source_sha256": "152f568828af038759580f7edad6e97489d94a1e026315bfd9ca876c4d77c7a4",
+      "release_sha256": "d6bdc8d63b21b460ef72a64480a0f4cb275659a7f80ce6785e50d21d0b235c3d",
+      "relationship": "adapted",
+      "adaptation_note": "Remove private subdir and W&B identity metadata; every other YAML field is unchanged."
+    },
+    {
+      "file": "controlled/clean_vit_moda.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "clean_vit_moda.py",
+      "source_sha256": "bf32b4e7fd2ea37f367f5fce13bac08f75bc7177cc20d029a0ac5107b3459e40",
+      "release_sha256": "36cebb0f9b98d90a6efb1494ebfe9c083967eec200d579a7bfb203e4e03c132d",
+      "relationship": "adapted",
+      "adaptation_note": "Release docstring and kernel-import error reporting (the import failure is carried into the 'unavailable' error); Triton path, reference attention and encoder forward are unchanged."
+    },
+    {
+      "file": "controlled/component_controls.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "historical_component_controls.py",
+      "source_sha256": "4526b8f36fc950358d05cfc7701f8d1f66bb0ff193e9b8679915b374acc74c70",
+      "release_sha256": "52342a5af412c3407daeb01d9081bcca42e1382ac9f61a3d6988f7d4bb05489e",
+      "relationship": "adapted",
+      "adaptation_note": "Only the two paper arms (combo_base, combo_qrm) are kept from the historical arm list; statements unpacked onto separate lines and an unused import removed; numerics unchanged."
+    },
+    {
+      "file": "controlled/official/LICENSE",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "LICENSE",
+      "source_sha256": "4882021920cbd61e050e4dc2e02440e9bd36ea4cbc5803e738a2ee3d63502e07",
+      "release_sha256": "4882021920cbd61e050e4dc2e02440e9bd36ea4cbc5803e738a2ee3d63502e07",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/README.md",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "README.md",
+      "source_sha256": "598ec180a74926d389499ebfc99044b7167bcdc3e20f8da0d0f4142df3f68b0f",
+      "release_sha256": "598ec180a74926d389499ebfc99044b7167bcdc3e20f8da0d0f4142df3f68b0f",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/eval/cube.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "cube.yaml",
+      "source_sha256": "4a6eddb12b4f9414c51bd9da48a15fe03944d7a6ea49ac6385132eddf45d2af7",
+      "release_sha256": "4a6eddb12b4f9414c51bd9da48a15fe03944d7a6ea49ac6385132eddf45d2af7",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/eval/launcher/local.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "local.yaml",
+      "source_sha256": "1dda4add0a1632ba41458377e11897cd80ba2508483a82fb6a41f0f88a06b900",
+      "release_sha256": "1dda4add0a1632ba41458377e11897cd80ba2508483a82fb6a41f0f88a06b900",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/eval/pusht.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "pusht.yaml",
+      "source_sha256": "5d07527d3012b33cf59f4a5112476bc6780930af81b3874b97cf2ecec911eae4",
+      "release_sha256": "5d07527d3012b33cf59f4a5112476bc6780930af81b3874b97cf2ecec911eae4",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/eval/reacher.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "reacher.yaml",
+      "source_sha256": "db07a3fa8da66710ac0846d1acedfb463b49ab25e445a3073c2f5c2c2c789dc1",
+      "release_sha256": "db07a3fa8da66710ac0846d1acedfb463b49ab25e445a3073c2f5c2c2c789dc1",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/eval/solver/adam.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "adam.yaml",
+      "source_sha256": "362755cca34d6221d1bd9a9b2d221f603ab22b7208038c0425c8e389b5fa2c1b",
+      "release_sha256": "362755cca34d6221d1bd9a9b2d221f603ab22b7208038c0425c8e389b5fa2c1b",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/eval/solver/cem.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "cem.yaml",
+      "source_sha256": "797629f829c0d3ad3b9c4e42d46a87f08da0b3845bc433e353fd6274cb0574df",
+      "release_sha256": "797629f829c0d3ad3b9c4e42d46a87f08da0b3845bc433e353fd6274cb0574df",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/eval/tworoom.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "tworoom.yaml",
+      "source_sha256": "7ca6c1094eaf446e2b8decc11bd7e5809d2d34ea5d81d4db06cb17cd4648b266",
+      "release_sha256": "7ca6c1094eaf446e2b8decc11bd7e5809d2d34ea5d81d4db06cb17cd4648b266",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/train/data/dmc.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "dmc.yaml",
+      "source_sha256": "56605de9a8005f4a6cedb7652e84b4ff9c7993762d6033cb0562d3e5a56b6725",
+      "release_sha256": "56605de9a8005f4a6cedb7652e84b4ff9c7993762d6033cb0562d3e5a56b6725",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/train/data/ogb.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "ogb.yaml",
+      "source_sha256": "e87c0eead1ebc288d63a529a315927fe6c1493a3fbb3d531827fea2ce1b77ffe",
+      "release_sha256": "e87c0eead1ebc288d63a529a315927fe6c1493a3fbb3d531827fea2ce1b77ffe",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/train/data/pusht.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "pusht.yaml",
+      "source_sha256": "b8ba85c0eb145f6131d049f3c0a556430262485d963c28a48954b357da1fc11e",
+      "release_sha256": "b8ba85c0eb145f6131d049f3c0a556430262485d963c28a48954b357da1fc11e",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/train/data/tworoom.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "tworoom.yaml",
+      "source_sha256": "6a2349da657fb32eeda653a5796788b22d3ca5bb3cdbb5e650626f0a35f10d67",
+      "release_sha256": "6a2349da657fb32eeda653a5796788b22d3ca5bb3cdbb5e650626f0a35f10d67",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/train/launcher/local.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "local.yaml",
+      "source_sha256": "417c973380226b2279f360bf0072c357ed147dbf92e0caffda56275bdf73b432",
+      "release_sha256": "417c973380226b2279f360bf0072c357ed147dbf92e0caffda56275bdf73b432",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/config/train/lewm.yaml",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "lewm.yaml",
+      "source_sha256": "3c44d61818c8eefb60baed61b8dbb75f2f36319217030042735d790874e9e9b8",
+      "release_sha256": "3c44d61818c8eefb60baed61b8dbb75f2f36319217030042735d790874e9e9b8",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/eval.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "eval.py",
+      "source_sha256": "91173f832a2ce57365f7f4813322fb353ee4431986687a75fc17da172edfa074",
+      "release_sha256": "91173f832a2ce57365f7f4813322fb353ee4431986687a75fc17da172edfa074",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/jepa.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "jepa.py",
+      "source_sha256": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96",
+      "release_sha256": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/module.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "module.py",
+      "source_sha256": "0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620",
+      "release_sha256": "0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/train.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "train.py",
+      "source_sha256": "bcb67b15f105bd78ab52c5480824a1334f95d841487d2f706ea55b4d5488dbdc",
+      "release_sha256": "bcb67b15f105bd78ab52c5480824a1334f95d841487d2f706ea55b4d5488dbdc",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/official/utils.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "utils.py",
+      "source_sha256": "0793dc4f0c2f27a3ece84e11fd10aa33dce762ca2c5032849c17dea5d95dd09f",
+      "release_sha256": "0793dc4f0c2f27a3ece84e11fd10aa33dce762ca2c5032849c17dea5d95dd09f",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/train_dense.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "train_dense.py",
+      "source_sha256": "49af28bef4201732eeee244b5de00325e5c14dfb398228d9b0dff5bc01a55aa0",
+      "release_sha256": "e9a807c782fbc297a6d0e4a8f3443f2247b0dca4e40f64864af3b9c1cfb59657",
+      "relationship": "adapted",
+      "adaptation_note": "Removed an unused step grid and added a batch-size assertion matching the recorded manifest; checkpoint, manifest and budget hooks unchanged."
+    },
+    {
+      "file": "controlled/upstream_manifest.json",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "upstream_manifest.json",
+      "source_sha256": "063d9c77c659c24fa661bec87c4ae65d9e779f0ad21457002e4ecff8add387d2",
+      "release_sha256": "063d9c77c659c24fa661bec87c4ae65d9e779f0ad21457002e4ecff8add387d2",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "controlled/warmup_override.py",
+      "source_group": "controlled_and_official_snapshot",
+      "source_file": "warmup_override.py",
+      "source_sha256": "f9ce4f9c8765bf863b54c5558cbb1846384d957b075e83e9dc556a7c12184d72",
+      "release_sha256": "f9ce4f9c8765bf863b54c5558cbb1846384d957b075e83e9dc556a7c12184d72",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "diagnostics/banks/pusht/bank.npz",
+      "source_group": "fixed_diagnostic_bank_pusht",
+      "source_file": "bank.npz",
+      "source_sha256": "6593f45290f0255a50efdda9a5d61893bdebe8381da11e08f063dac5b69644f9",
+      "release_sha256": "6593f45290f0255a50efdda9a5d61893bdebe8381da11e08f063dac5b69644f9",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "diagnostics/banks/pusht/metadata.json",
+      "source_group": "fixed_diagnostic_bank_pusht",
+      "source_file": "metadata.json",
+      "source_sha256": "5338268d685063fad7f2458c3db162b62ed2ba705787aa43bfdfc8fd2e04dd5b",
+      "release_sha256": "ba48d21028441dbf7edf02404fd0dd38abc93dda1ce0ce850326c516515ae867",
+      "relationship": "adapted"
+    },
+    {
+      "file": "diagnostics/banks/reacher/bank.npz",
+      "source_group": "fixed_diagnostic_bank_reacher",
+      "source_file": "bank.npz",
+      "source_sha256": "f8355c170bcb984000e35934af44c36e7e31fba8127aa1b2dfd4ae59545db832",
+      "release_sha256": "f8355c170bcb984000e35934af44c36e7e31fba8127aa1b2dfd4ae59545db832",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "diagnostics/banks/reacher/metadata.json",
+      "source_group": "fixed_diagnostic_bank_reacher",
+      "source_file": "metadata.json",
+      "source_sha256": "a5ec7dded1c9382ddfad5903fae4558d084b0aed3909a155447783d9f0507c60",
+      "release_sha256": "08dd3eda816874a55f981a518f4c01906f65fafd94cd591b989e3cf51ca58388",
+      "relationship": "adapted"
+    },
+    {
+      "file": "diagnostics/banks/tworoom/bank.npz",
+      "source_group": "fixed_diagnostic_bank_tworoom",
+      "source_file": "bank.npz",
+      "source_sha256": "5d671e90b25f7456e76fc20cdcaa4e1bc82c476786b03770488baf0e37dd0437",
+      "release_sha256": "5d671e90b25f7456e76fc20cdcaa4e1bc82c476786b03770488baf0e37dd0437",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "diagnostics/banks/tworoom/metadata.json",
+      "source_group": "fixed_diagnostic_bank_tworoom",
+      "source_file": "metadata.json",
+      "source_sha256": "eb5d566640e77f28a44061fab920274bb53f495369bcffe00321cdbf450bc1db",
+      "release_sha256": "dfb1e57b0b36f89e26ea9b6d1045486fe6ac3de1d00f267cdaaf473cf22f4d27",
+      "relationship": "adapted"
+    },
+    {
+      "file": "diagnostics/evaluate_raw.py",
+      "source_group": "original_eval_diagnostic_snapshot",
+      "source_file": "evaluate_pair_diagnostics.py",
+      "source_sha256": "33cbd0a27781c9aa01cee9d61169c8c4733b69a204ba5cc0c815539d73cd3f7c",
+      "release_sha256": "27899c1394ddf650db2a5f6cffd87a6ea8818689f5ec99e52e03e318662db69e",
+      "relationship": "adapted"
+    },
+    {
+      "file": "diagnostics/raw_common.py",
+      "source_group": "original_eval_diagnostic_snapshot",
+      "source_file": "diag_common.py",
+      "source_sha256": "5a378732b471dfa7ef41ba6d4adaca40f06a16b8049db5501cc1ef3cf85b41f5",
+      "release_sha256": "b09ad1bbbd579de28d531fd5079de397c61ff338622df0e53af08c132549f94b",
+      "relationship": "adapted"
+    },
+    {
+      "file": "evaluation/ensure_tworoom_stride.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "ensure_tworoom_stride.py",
+      "source_sha256": "3e1191495bb23e2319550a8bdb606f126ca22d97a9461e57b2fdf134275df45d",
+      "release_sha256": "3e1191495bb23e2319550a8bdb606f126ca22d97a9461e57b2fdf134275df45d",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "evaluation/eval_gcidm_ensemble.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "eval_gcidm_ensemble.py",
+      "source_sha256": "b00ce7cc18121181edc6abc43a878f55c738cf0ebd954dbabb8b70ca462b4db0",
+      "release_sha256": "ec2744c34e5914305834c5f105ebde675bfe66a946eea0fea3a3406137bc307b",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "evaluation/eval_gcidm_planner.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "eval_gcidm_planner.py",
+      "source_sha256": "e75a19fff648351713365d2614c33fb16a0eac8eb4c7df58eeea745f2102d906",
+      "release_sha256": "f4b2ee2d255f76376023ca9eb6b2f15f7ac6ad693c2bcf0d306219b3a8950116",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "evaluation/eval_puzzle.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "eval_puzzle.py",
+      "source_sha256": "6c88588daf638f91c2f35c8f1993404178fb2168618d2b0d94c5cc3690916cac",
+      "release_sha256": "e5eda354c340ea94c3ed87958ab7a15e1eec2e7424ecb63e017ebfffdd67e5c1",
+      "relationship": "adapted"
+    },
+    {
+      "file": "evaluation/gcidm/__init__.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "__init__.py",
+      "source_sha256": "63fdab50695c00bd500850a4ada63e756c235719a3c89bd71fbe87a39a0df73f",
+      "release_sha256": "63fdab50695c00bd500850a4ada63e756c235719a3c89bd71fbe87a39a0df73f",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "evaluation/gcidm/dataset.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "dataset.py",
+      "source_sha256": "118f2c4f01d8b4201d2ce169ee45f5a80443a8b9b9380d776478946489dcdfaf",
+      "release_sha256": "fc33a0c67a0624d3a0ef776dda427dae7b4fc99dd86ccb6e7cea1b962e867403",
+      "relationship": "adapted"
+    },
+    {
+      "file": "evaluation/gcidm/model.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "model.py",
+      "source_sha256": "86f0bfa3bbfd8a0623a16cdd872134009992d06b8423455b4ddc7decf81939b1",
+      "release_sha256": "801c95e0374239861239db00d56e813fdc3b8e97219bca3957eb625e5756383b",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "evaluation/train_gcidm_planner.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "train_gcidm_planner.py",
+      "source_sha256": "88dc9a1c4effdbc89a1c04cff8f7823c32bf82d12a4b8123a7773b905db1d5bd",
+      "release_sha256": "8a89484ed912b6977980c1b5b5fd98027695aeeb3d15b9c5a6fc77aa9958b521",
+      "relationship": "adapted"
+    },
+    {
+      "file": "evaluation/train_single.py",
+      "source_group": "control_evaluation_snapshot",
+      "source_file": "train_single.py",
+      "source_sha256": "1e26742f4ae52382b724f0e10f4c28d0d1ce53fbd4616fc1e739b0477e30e2c5",
+      "release_sha256": "7b847fbbc6a2cd926e07483d32b825c6789a7c638e73e9b7dfef8e4207bdc6c7",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "scripts/prepare_puzzle_data.py",
+      "source_group": "historical_puzzle_data_conversion",
+      "source_file": "convert_ogbench_streaming.py",
+      "source_sha256": "71405221b504423606da0ee2632c2a64b74cf531f0b89e22caa7d403358934f8",
+      "release_sha256": "7dfb7f061914e4a7acfadba5b4ce1495bff64f8805091a3ea076a62c5fce09ae",
+      "relationship": "adapted",
+      "adaptation_note": "Portable named CLI, input validation, exclusive output creation, and sequential pixel reads; historical array transformation preserved."
+    },
+    {
+      "file": "src/budget_schedule.py",
+      "source_group": "selected_full_and_multilevel_snapshot",
+      "source_file": "budget_schedule.py",
+      "source_sha256": "56b5c1d8d550935dfd02359792c05505b8d15eae0dfdea6c1b1408c2dae6ee9b",
+      "release_sha256": "56b5c1d8d550935dfd02359792c05505b8d15eae0dfdea6c1b1408c2dae6ee9b",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "src/full_ablation.py",
+      "source_group": "selected_full_and_multilevel_snapshot",
+      "source_file": "full_ablation.py",
+      "source_sha256": "4b8082ae71515188ec88c4bf1e931e81082a71c991dc9adcfa506dd1702ea9de",
+      "release_sha256": "99642736d7acfc0e3cd78f8a8555ded711950327d41b358a52c3846ff5348042",
+      "relationship": "adapted",
+      "adaptation_note": "Docstring and line formatting cleanup only; variant construction, seeds and initialization unchanged."
+    },
+    {
+      "file": "src/jepa.py",
+      "source_group": "selected_full_and_multilevel_snapshot",
+      "source_file": "jepa.py",
+      "source_sha256": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96",
+      "release_sha256": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "src/moda_module.py",
+      "source_group": "selected_full_and_multilevel_snapshot",
+      "source_file": "moda_module.py",
+      "source_sha256": "c76364ec448930cc4c769cef625d707221e20839b58198d729b6224754fd9007",
+      "release_sha256": "606f9dd20241e44c5abb5158af41c429c3cd9a44d18257b1f238618d9572c83e",
+      "relationship": "adapted",
+      "adaptation_note": "Encoder-only release: the autoregressive predictor class, its alias, a compatibility alias and the self-test block were removed and the module docstring rewritten; encoder classes, kernel path and numerics unchanged."
+    },
+    {
+      "file": "src/module.py",
+      "source_group": "selected_full_and_multilevel_snapshot",
+      "source_file": "module.py",
+      "source_sha256": "0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620",
+      "release_sha256": "0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "src/multilevel_concat.py",
+      "source_group": "selected_full_and_multilevel_snapshot",
+      "source_file": "multilevel_concat.py",
+      "source_sha256": "fa88fac4bbd850eed95278338fce6f27f3fc78cb0e7db96d0631270dda3c5db1",
+      "release_sha256": "fa88fac4bbd850eed95278338fce6f27f3fc78cb0e7db96d0631270dda3c5db1",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "src/multilevel_mean.py",
+      "source_group": "selected_full_and_multilevel_snapshot",
+      "source_file": "multilevel_mean.py",
+      "source_sha256": "7a42025cdc5e6c233b56d8e4e05de284113f5703110e320bf8aa35903e5e5b25",
+      "release_sha256": "7a42025cdc5e6c233b56d8e4e05de284113f5703110e320bf8aa35903e5e5b25",
+      "relationship": "byte_identical"
+    },
+    {
+      "file": "src/utils.py",
+      "source_group": "selected_full_and_multilevel_snapshot",
+      "source_file": "utils.py",
+      "source_sha256": "9207bdbbbe067e930a77f37bf2f50d352fe5819f984b5ede7fcb9c8ef2267a56",
+      "release_sha256": "e8997d9537257b3904b07c990f789ca648c7602c4ba01bf8e26a0bad0980a1c6",
+      "relationship": "adapted",
+      "adaptation_note": "Removed unused checkpoint/warm-start helpers, the loss CSV callback and debug output; comments rewritten in English; transforms and ModelObjectCallBack unchanged."
+    }
+  ],
+  "additional_hash_manifests": [
+    "controlled/upstream_manifest.json",
+    "third_party/moda_triton/SOURCE_FILES.json"
+  ],
+  "release_helpers": "New portable launchers, hooks and documentation are covered by SHA256SUMS; adapted numerical files are explicitly marked."
+}

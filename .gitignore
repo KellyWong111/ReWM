@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+*.ckpt
+*.pt
+rewm/outputs/
+rewm/runs/
+.venv/
+runs/
+outputs/

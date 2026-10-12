@@ -1,0 +1,1230 @@
+[
+  {
+    "file": "third_party/moda_triton/fla/__init__.py",
+    "sha256": "e9dbbe0331b43d684b586652ff355c10bc938d68c7a04315fd314fec6be4476f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/__init__.py",
+    "sha256": "21165353361a6700434340f80280d74279355cae6325b23bd231dd33a60ba011"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/abc.py",
+    "sha256": "25d31ab02dd206844af7ee53afed24acada81cc172bdf3b5edfa45427fb8071b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/attn.py",
+    "sha256": "78500a620bf8c3fa0261c4e6c52488b56b957bfa88102591e37d80c939249c88"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/based.py",
+    "sha256": "843cdd88481128a91a7ef95076b68fff39e33c2e9a9c6c6459001d6b66413018"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/bitattn.py",
+    "sha256": "9ad08a79899406aff220c121f63ca8a28cc24650da99422bf4109a2fdeaecf04"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/comba.py",
+    "sha256": "dcc02bc28494497ebaa4ddfc271b9387d298bfc8d1c0dd2cfc6b1f56ac395dca"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/delta_net.py",
+    "sha256": "f503aedfa87a78100054c4ab3a66370d13828958ea43cc94201948adf33f3df5"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/forgetting_attn.py",
+    "sha256": "7e178f83e95c4b8e6c501b127937d9475b07ff53b72dc22e843305753340231f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/gated_deltanet.py",
+    "sha256": "d22f85b7e0129866705b52d0ee9f8518e87c01adbb26685ca6dca3fbe3b8a7d1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/gated_deltaproduct.py",
+    "sha256": "997a46515bf3031674425c95a5de7bb77b4acf0acfa05e62f5e4237d0945406c"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/gla.py",
+    "sha256": "ca3e42418ed8e9b0341aa8fb98802e7840f76e35ca1a72eaa78fecea3d7d2004"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/gsa.py",
+    "sha256": "03b27d7f63d3cac836c414f10e2b4f1f9e7412b3122efe8640d890ae05b09414"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/hgrn.py",
+    "sha256": "0e965ba876faf7b6345c889f0b66c94abae5893956cbd9dcc2f6627ba8704323"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/hgrn2.py",
+    "sha256": "94886cbdf9b0b15763e271cefbaa9c312af42c4c0a00fda85cfb4411c7766469"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/lightnet.py",
+    "sha256": "8d69f38b08fa5b9d74c7d8339ce1eed8900b00cfb70a0f2e8f643a9499dd3bf7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/linear_attn.py",
+    "sha256": "bf7081eb6c2b638c1517810800a6fa7afdaa0ae47287ef4e77fd82f6fb064f8d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/log_linear_mamba2.py",
+    "sha256": "0635a810510dc5d29c05ffbfae65d5f2e24ba6ab8aaaff0d59cf5d6dda44829f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/mamba.py",
+    "sha256": "8ae54b732bc968d0771901795d5ab5a2ab1bc9ff7c910f24be47efc6d7debdb1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/mamba2.py",
+    "sha256": "b76a45bf09928020bc2251c635cdcbe96342eaef9c7a53d6d8b125b925f729f7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/mesa_net.py",
+    "sha256": "a4baee6952f4ef6e2bcf39c96b6d1864ff7fec3eb2d5dc203e9db53f6a34ff92"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/mla.py",
+    "sha256": "38945fac025b734aea0549e929d0919bad0a725ddc947822f39ce5a8b6ce8dc0"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/mom.py",
+    "sha256": "a1b33852baf7d5c6774ef0aaedffa684221fe069bb191b7cd1aeba3039b8893c"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/multiscale_retention.py",
+    "sha256": "0b7d758e9ab4657b1f3d60953b6f603d1ff6b828b8c8a9f600f4da5e15547fce"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/nsa.py",
+    "sha256": "fd10237ded8517850732a32da1249e86c20b122bc788a4769d643add74999b08"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/path_attn.py",
+    "sha256": "552dca81bc35a5c8718cc384614f89fab737e9bc579920b2266da206d02e8b5e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/rebased.py",
+    "sha256": "7c92c70edaaf7c53ee6ef4886e96a50034bc3164becd9c9d50dc8a56ad65da8b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/rodimus.py",
+    "sha256": "f2cb3ea48594cb2f227dd6937b7431cc9c116b22a883dbf926a2a257b4193445"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/rwkv6.py",
+    "sha256": "5cd488783ed4d8e4cf5c27c8d42fd0f5025e16245fbae8a54fb324759d7c8af1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/rwkv7.py",
+    "sha256": "059d21bef9403430ca063060d80f0122f07f44fd80758e8110ed02a43e5bd997"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/simple_gla.py",
+    "sha256": "4b342705a8bf23c5187a1297dd0258ca2851e1c22198418125a0536235ffc9cb"
+  },
+  {
+    "file": "third_party/moda_triton/fla/layers/utils.py",
+    "sha256": "57445d45bf193d414b89d7106c6bef42ace0b373c61383335099023614937b07"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/__init__.py",
+    "sha256": "82d5c427952a138917cf59d4b43a7dccbfb2038b3867580f9096125a4ba013a1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/abc/__init__.py",
+    "sha256": "e95a6de166144cf6cc2b180780206d1b89adce72991e4a2655a9598a9d6a5a28"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/abc/configuration_abc.py",
+    "sha256": "a5001191b90997d97ec4503378fd15e227208b42c0a0ca0f2b5055c947c7e6a8"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/abc/modeling_abc.py",
+    "sha256": "1614c47e002f35688b4979d18df2ccd0a4aca276c319cf763b7ae5d1f6d98aac"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/bitnet/__init__.py",
+    "sha256": "dee99cb40725d7245b20120a0b461ff374d2e873ca00636b7a58089817f48261"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/bitnet/configuration_bitnet.py",
+    "sha256": "1b136b4375267e416639f2926abb944e5e58f4682d45b7283dd0b33f6cbec726"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/bitnet/modeling_bitnet.py",
+    "sha256": "9af1c640ad2564b52e515a2987184ff04f383253039eed44d5796904d1a5c682"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/comba/__init__.py",
+    "sha256": "58c997a23810feb0525d9c6b6fece73d98db88b39f3c378e545920c8a9b947e5"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/comba/configuration_comba.py",
+    "sha256": "1615d3d30447ec5dc27ec0db45ecb6620d4633719afb8f2ea1d8a16f656b9702"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/comba/modeling_comba.py",
+    "sha256": "475c63cdfd5bc73ae6f94d51c38f454b7eb30669d5dcd165aa3cf7822a60a8c0"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/delta_net/__init__.py",
+    "sha256": "ee012673f784d3c6d6d4a88a208791c63726ddaf5ccf8c3ee3a3201b344ae5f4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/delta_net/configuration_delta_net.py",
+    "sha256": "8a71c949aec43d1eb449438ac1ad225d0de3884e2034a2876d17eb2ce7d053e9"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/delta_net/modeling_delta_net.py",
+    "sha256": "3699620e06820af2c90d7839258539025637f071d97ff02f589e7487b2621e00"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/forgetting_transformer/__init__.py",
+    "sha256": "57b3b5e2ed2b94226def27828ac455d23ab8de2f9458d414d15d64b21f541a6b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/forgetting_transformer/configuration_forgetting_transformer.py",
+    "sha256": "84f18769cfa805e37c0cb3b7042143c0c739a8f8f9c2665cf5988dd7b14f63ea"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/forgetting_transformer/modeling_forgetting_transformer.py",
+    "sha256": "8bc47aa61ee769058467023346034a51cb0074df5b3296fe5eef83571a4b0cb2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gated_deltanet/__init__.py",
+    "sha256": "501b12c54f734ee65440b2eaacc6b7c958ecf2005d72c0b852843e74e8c87f28"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gated_deltanet/configuration_gated_deltanet.py",
+    "sha256": "e328ea8f4412eebe6a5e36067c433da946a260a718b39de6610025469c5df513"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gated_deltanet/modeling_gated_deltanet.py",
+    "sha256": "decc201af21315235682e9c04ae25ebe9c75710c01e5de424510b72f457cc2dd"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gated_deltaproduct/__init__.py",
+    "sha256": "5d0667ffce5cd8c863a4f5962e1a3542ac4bf4501e6c65b5f8ae834e3d285b41"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gated_deltaproduct/configuration_gated_deltaproduct.py",
+    "sha256": "a45ca19a9b964d2d0c542b6cd5e204ee8c3130838e98edc67ee0d8ea0c558b8e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gated_deltaproduct/modeling_gated_deltaproduct.py",
+    "sha256": "c5cf1a4d396fd655d30e47d0c22f089d4b3ae5d187c41e2e5cd1f2455e3f5356"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gla/__init__.py",
+    "sha256": "cf9329637c24f3edbec98f092613df840660113e0c9113bb8457cb084d432d2b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gla/configuration_gla.py",
+    "sha256": "960bcdb1bc6bd8c5b79a3aff69a9073fcb24a6afd3bbea2b5c245804587e872e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gla/modeling_gla.py",
+    "sha256": "a7db36319b694aabeb75d266bbe6f56fd74f0f58c736ef0bac5b681406b126b7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gsa/__init__.py",
+    "sha256": "9b60db3e7dcb7580d6b418722f7dd622fea392dd7f0cbff0c51de12ee8ac7cc4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gsa/configuration_gsa.py",
+    "sha256": "d21a841f40281109dc7ca00000900f4d7de5a3eca278ee30eef16d60337b2c2a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/gsa/modeling_gsa.py",
+    "sha256": "2f55fd0a3205e22879e670574c6b470a0e51e5fce5bd3ddb15b0079933d619ae"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/hgrn/__init__.py",
+    "sha256": "b203696afce20d283476a9b3f83370f5a330eb76b77bb126aa0cb41233f2927a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/hgrn/configuration_hgrn.py",
+    "sha256": "54c2c1c269baf49198e120e3121bae6750955ddbff966a3dc3ec6eebde6c0b89"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/hgrn/modeling_hgrn.py",
+    "sha256": "90732233dda097df1995d58aa8bdbca064b6fd5efc7c24413d53e7407a7d926f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/hgrn2/__init__.py",
+    "sha256": "92f9c3358042780add7861cf3ba2260cd77c3ede1e47b1eb8ac12dbcfa1e7a5f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/hgrn2/configuration_hgrn2.py",
+    "sha256": "2f3bf0d79dcd43bf99f17770b378ff64ed740c35df9e837ee030fd0b5c3b26fa"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/hgrn2/modeling_hgrn2.py",
+    "sha256": "8d2441132b996537d44f5d33f984f9c8310976ae7ac55d8c614e1e5bca5b1d18"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/lightnet/__init__.py",
+    "sha256": "29b0fdcfe461c6959c08e0d0c38f56fe20e4567f6dbeb9874f7fe05a67f98db1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/lightnet/configuration_lightnet.py",
+    "sha256": "f94f6b6c01a680155dbac202ff6c1abbdfc95a9f30d4189d80931e8c3884c7ca"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/lightnet/modeling_lightnet.py",
+    "sha256": "42f865062b9c075564214261b47d2019f944f62237cf01e74bd72e91b5e1825e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/linear_attn/__init__.py",
+    "sha256": "609fd63596781d5644ad455cf744e50a1d7ce88d2216b7a31cefc7fc67b31082"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/linear_attn/configuration_linear_attn.py",
+    "sha256": "23187b83ea114dedd5dca0056c215489276fc3dfe1deff2ae22fc4b809e93449"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/linear_attn/modeling_linear_attn.py",
+    "sha256": "3b19cb9925016feb84e2d8f416fa80f81363768f41ba45aa2f2b102ad0a590d2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/log_linear_mamba2/__init__.py",
+    "sha256": "765bc96226c9e6fbbb13aeca5ba1bacb1281d476ff84daa48139d7fb3ac9e109"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/log_linear_mamba2/configuration_log_linear_mamba2.py",
+    "sha256": "99d4654f81b6b54f44255b21f9a6c4ea3fd8a37e42177b78579f95bc25ffddc7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/log_linear_mamba2/modeling_log_linear_mamba2.py",
+    "sha256": "ba1649b308306d3f9960cc64b55a133507f2b2b7222e24b0f570ed3952be5683"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mamba/__init__.py",
+    "sha256": "8d080cd3d02c4eed34466bb38793e76ba97554b161862efdab2d11352ae02fc7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mamba/configuration_mamba.py",
+    "sha256": "ed955a08c119a81d418a50b047db5f903488547c18f6e31a9e89678bf3e8a8ec"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mamba/modeling_mamba.py",
+    "sha256": "d301afa9a2886554dc7d0ce05ad2a07c6426530b052c9b1705568d0a70d9da5a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mamba2/__init__.py",
+    "sha256": "8b98d7daa2c8dbd81ba4c96a9a85e323c5a1a9bfc3497b5a28db8a8c2bcc3e8f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mamba2/configuration_mamba2.py",
+    "sha256": "c40d667fcdd0bd9ca1fee88fe38e411bcc6dabec0c536e7d9bca7e44bb4dbb38"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mamba2/modeling_mamba2.py",
+    "sha256": "3518ae78043e0f1b6ce3c03a5d466db8e7e0482b92fae2b093d8cc03f95da880"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mesa_net/__init__.py",
+    "sha256": "87456751510438c7bc9084976024baebbe27d22109e987c8652f8348a33863be"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mesa_net/configuration_mesa_net.py",
+    "sha256": "9f942652aa4ea894b58fde91b089cdbf6f685132f8c4b83a2c1ff9b09efa9872"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mesa_net/modeling_mesa_net.py",
+    "sha256": "5ecfc79dd8229303c66eaa03c115b4c3b521b0c1a85e06d11a442535fc8bddb5"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mla/__init__.py",
+    "sha256": "e29facb07c917e42ae407888c5ec664e6ae39837d99f81da22df382856f83a67"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mla/configuration_mla.py",
+    "sha256": "e59a04b3493574fa37e24ee6a152c57c8087b3de5d930b552aa1cd8901cbff2e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mla/modeling_mla.py",
+    "sha256": "ef7ab3abc99cf55b16c9a548292aab49ff2dd27756173547519186ded855a54c"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/modeling_layers.py",
+    "sha256": "d9cf571c2f05d4e0eacf49771c9b266f17b6ecaab1c13fdd943c3ab286f35567"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mom/__init__.py",
+    "sha256": "11694cc1d3098252f9489c622114371ec7f01a2e7cc1ff1ea2b005f352b08947"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mom/configuration_mom.py",
+    "sha256": "bc9ccb4a61c4c253d3dbfa59516f6f6ef54e06c5ff82d1bbf1d99560b35cbef2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/mom/modeling_mom.py",
+    "sha256": "5308ce1895f2c89b994d9bcf7703446602eef5d061d0d18889b4c5e8ab5b7b01"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/nsa/__init__.py",
+    "sha256": "03a3017b97c67e26abc51b1d17e53b7f8aef884eb028c268dc28fc0015c7c234"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/nsa/configuration_nsa.py",
+    "sha256": "bf78d5b20abb4798eeebae51ba468eb2ffd1df50a5b6dced7f8e755c899066f0"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/nsa/modeling_nsa.py",
+    "sha256": "8d107b880baccdbc9158b072555de9a14a5ba5de806a55c8012ea20997c72b05"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/path_attn/__init__.py",
+    "sha256": "a0f71443f1375cb849dd9bf5965f00bdeb45f4eb4ae55e2adf005901f9c2bf66"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/path_attn/configuration_path_attention.py",
+    "sha256": "06bcf5683626b76ff368269935551d4b35fdab78729ef04c90e904343d8f4127"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/path_attn/modeling_path_attention.py",
+    "sha256": "8839034457fe0eedb5c05e60c269c84e90640f56ec0f8d6d55438e529a229727"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/retnet/__init__.py",
+    "sha256": "5c7dfe7f2ff0b00ba19a3d21fe9d82a0cdd2b1dc6467ac5e66fbae273c000ddf"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/retnet/configuration_retnet.py",
+    "sha256": "715971bb23c21934b1439368df7b3286e88c460b2656c148ef0f9fae6a665d7a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/retnet/modeling_retnet.py",
+    "sha256": "3374eb65521e049733c3b807f8fb5559d126c57aa2be49ea5f73e8bcb170b78a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rodimus/__init__.py",
+    "sha256": "6909c51e6d43961a4480b61c547c2000e931be301f1bcc6388ceb23fb2206aac"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rodimus/configuration_rodimus.py",
+    "sha256": "a9149722b5f111caf87f6e6906cb5a3d8d1672fac8b911eb2bfacecf8e1e9ee1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rodimus/modeling_rodimus.py",
+    "sha256": "7ccc1a65a6c619a87ade8d054e18379d869c5de7028a344dc0d2ba4f9a86bf1d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rwkv6/__init__.py",
+    "sha256": "f7ec02328d25e1fe084e2085ab63151e277df67a46dc8b388cd20b8ff4d6a1f2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rwkv6/configuration_rwkv6.py",
+    "sha256": "246668c093f56e2f19c03d7378244040d17012a88e7847466a092e1541e924db"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rwkv6/modeling_rwkv6.py",
+    "sha256": "845477b3099749274b887bc8a29e1fa09ecfe56fba60d6ac3edcbaf7b2ab6645"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rwkv7/__init__.py",
+    "sha256": "b32cb6e5efe93d5e2078cc34ffe2811b5b2655bc866a79cd05452b63f0bf10fc"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rwkv7/configuration_rwkv7.py",
+    "sha256": "f6d51f0ac14565099fd72c21aed27debdb2b193ecc6769e872375f0a7310498d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/rwkv7/modeling_rwkv7.py",
+    "sha256": "7a0543f5e6f70cf1115cbc3b734c742a14d7b22391f459163d48bfaabaaf1371"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/samba/__init__.py",
+    "sha256": "2df9a7efd8f780c6598ceffcae7593fc783a1420217fd23cb1486414f3732b36"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/samba/configuration_samba.py",
+    "sha256": "c29a259a64016afc240678a8e2d944008d900b23deb12d7754e0d398451fd6e8"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/samba/modeling_samba.py",
+    "sha256": "40b82a6b4bc14276785c35c91d28285a89ef8c84d2cc5b657df31507a4a1f1bf"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/transformer/__init__.py",
+    "sha256": "3afba713894a13253fea3645fe8730f58ec5ae3641133be77c7d89539428b586"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/transformer/configuration_transformer.py",
+    "sha256": "f71dfcc5fc6ba91d31ec5e486c0dec64ab777166266f2c28535fdda776ff0961"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/transformer/modeling_transformer.py",
+    "sha256": "db5ec59e91ed0e12ea05ff4fdbe21f19c8a131fe39a27f018f0daf24edba9604"
+  },
+  {
+    "file": "third_party/moda_triton/fla/models/utils.py",
+    "sha256": "631d696959b12daec8283092cec6c48071cfb8b5376fbae53cf720c3b7a361c8"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/__init__.py",
+    "sha256": "62e8c3c8e0da1e5ecebbeff7c1046914b1ff5db314d369eb99d8de63aca9e58d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/activations.py",
+    "sha256": "8362ecbcf57ee66034e1c1d2b7272ff6ac7f80964588c2e8fd7f21647bdc2e4e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/convolution.py",
+    "sha256": "a33afd670b6c099d2357a4687bfd382c796d63c387e4e847e1ed680c89d4b291"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/feature_map.py",
+    "sha256": "6e6627f0a9ef8d28105f5ea5abaf4dd060d2a1b04b2b0491b4e789a3a3046716"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/fused_bitlinear.py",
+    "sha256": "ce77f45486465ea4ee4435ebf5f4b6569994511efb9825cff06ecb3153f6147f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/fused_cross_entropy.py",
+    "sha256": "57fb8fb85f85d095078f49aebe1a24f003591fe0987029dbe04272870ad9c8e3"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/fused_kl_div.py",
+    "sha256": "fd4187a177a15c6ee668a93d1df9e8c6fffeb3d44290180548022fdbd471dc44"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/fused_linear_cross_entropy.py",
+    "sha256": "369aeff2b9fb22259e9bc95eb683c69ce9b7e853e00e6005f67f76eb939529e3"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/fused_norm_gate.py",
+    "sha256": "6cde9de493e4b7885c2b8f00ecb1602a12dd67388282aca15ccc88781fe5e3fb"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/grpo.py",
+    "sha256": "e5ec5f87da1b337687ae574cd8cbae0eb6b2193fa76dcc63b458adf86e174b9b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/l2norm.py",
+    "sha256": "39da5b0e222584ff545a78f4e7e4d42e95284461f38781d1950226adee74acc1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/l2warp.py",
+    "sha256": "5ebcd8303bee0d106401c1c6566c59dd62a9530bbdeab37f2b42084f632db6e8"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/layernorm.py",
+    "sha256": "385f666108807a4595cae1261664dee682f4d6aaaf971cdf239e92052dca3143"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/layernorm_gated.py",
+    "sha256": "37598fc6f75e30466cf594f0f1526ce4b10dd2898660bd62e9cdf61908975bd5"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/mlp.py",
+    "sha256": "36ccc4be7d9dcc01f98931f3ff6695acad4dd2b7552a7ee904faf3bfda1aff5b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/parallel.py",
+    "sha256": "52fea3a2dbe55b9096935dd467336672e6811a6bf66e3db2045f52c4ddb8ad80"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/rotary.py",
+    "sha256": "64c8d45f41a476eb6b2c9f5836465663be8ae5d493aa97b2e15784e34e7fa09b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/modules/token_shift.py",
+    "sha256": "af67e84790ce92d883b4cd0e2d28d434d289951c9c439a1162199b15a2e7de20"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/__init__.py",
+    "sha256": "6398d2ccd0f094ba8a111dbd3013f6c7b1f190f00c7a3c6146e342738e6060bd"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/abc/__init__.py",
+    "sha256": "41410791d18a4679a72b191bb174508f26f6296ec854eefb866744a06599c11d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/abc/chunk.py",
+    "sha256": "2220374f3ec13a7a31a84c88f1cd4abe057cbf0644a29ea3a8ac8fe5dc3a4f92"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/abc/naive.py",
+    "sha256": "a7c14df08164f01589372184f786b4e4bbe3b0a143a1359d76a5741648a35121"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/attn/__init__.py",
+    "sha256": "9630cb58d29cb8c24df4153a6293158d0f6d4cd1eda7ed46103425358c631ebe"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/attn/decoding.py",
+    "sha256": "300e9663bffbbca1e8e8ee273ee4013cab43ebc5bc3a301412bf3135d7718a76"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/attn/parallel.py",
+    "sha256": "f8515c9c23facdfc4872025f223131b379976b4a1ec2e875d76462f850e7668e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/based/__init__.py",
+    "sha256": "a7cda9ed538bbbbc8939595993fbe10ea91f47fb5a09a9b59833afa49a82b792"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/based/fused_chunk.py",
+    "sha256": "96e5e7f044ef017570a0ecd3f7b3f8476b4ff30d095a366748c514d4f7f30d66"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/based/naive.py",
+    "sha256": "4028de43b10b680ce8fc7c009a13e4f47bb8addd74cfe2ff99cc560b15545014"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/based/parallel.py",
+    "sha256": "24bd4251ef8fdf462517199b96c6d081e835ed160e81ff999d2906bc9a5bfab9"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/comba/__init__.py",
+    "sha256": "68839e4fa2f094fa1a7d57d9e9b735661dbc6f4c2dbe19f19f004e9dba7ef3be"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/comba/chunk.py",
+    "sha256": "79edf36f6110b2c4089bf7923417a08d53aed55b94909506e269337069f066a6"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/comba/fused_recurrent.py",
+    "sha256": "35c11604f8dc0ab05ee48f9acb187ba6a7507c39091555ffc12f1f976e8911e1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/comba/utils.py",
+    "sha256": "8420b2914633447f5ecb37860a1f994e41bee2398866d4f2cae92cebfa172c0f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/comba/wy_fast.py",
+    "sha256": "b5c2ecd3c5834e9413d7e8aa5dda47f905cb0b5b0d777f7656840730e0c71270"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/__init__.py",
+    "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/chunk_delta_h.py",
+    "sha256": "4f940aad23cb583a7dae0cdcf5d5b3656a036f3b88e71d6bd6173979febbbfb2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/chunk_h.py",
+    "sha256": "4d844e19322cac62325428ae8ab9553aff5f0012670eb72bd7d12e551a5bb54f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/chunk_h_parallel.py",
+    "sha256": "e5d438a70a880511716c4867ae0f47e48591e4ba8bb7e6fce007bbd7747f04c9"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/chunk_h_split.py",
+    "sha256": "bab58357b3f5947fb27860febd919361cbb63a947b2955c08001f46c9c05aa7e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/chunk_o.py",
+    "sha256": "135a7e3df5cce3c2fffe38d3a50274be5e571b37a4e53f344c70613b40b12b69"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/chunk_scaled_dot_kkt.py",
+    "sha256": "51dac897e331f2cfde7cebc1a987fbd10ad57b7076276d8c8d26568a25656b9e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/fused_chunk.py",
+    "sha256": "b7a0329502a999bf9eaf5d63b173d4cc0f8174429ccdb6fe7019b23ec9030dfc"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/common/fused_recurrent.py",
+    "sha256": "f42914d75298f76b6919c775622e0c88c0f97246f187de919cf5cc52ec083e9d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/delta_rule/README.md",
+    "sha256": "b4959f466c9592dfaa8f0fae702e4f8a69e907b4d8302e0c6c0ca47288b9ea4b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/delta_rule/__init__.py",
+    "sha256": "0302d0de2f017e57ed2f9058a00b75c59e0684ba3222f51489f28408157904a4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/delta_rule/chunk.py",
+    "sha256": "a2a39f4a3184c835320c4933789c3b98c9a54b617528ba23c33191dc7a0c6407"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/delta_rule/fused_chunk.py",
+    "sha256": "03d97984ad1ac19fa6f52f43d346b38f5e2d0c534b62550bd62b9acf65f2a2c3"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/delta_rule/fused_recurrent.py",
+    "sha256": "965993b82fbb07655dc4f020ef5673519a52494c6c57d8026db15343e383cd20"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/delta_rule/naive.py",
+    "sha256": "6ce9b2a7e5e28c59558de0f7c2c5d75ecda47e2986877c22fa8188ce6eafba9f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/delta_rule/parallel.py",
+    "sha256": "214ee85f14319f52579d1561b417dd148e569eccb2076bf54ccf27447949cf62"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/delta_rule/wy_fast.py",
+    "sha256": "ee3374556b8cd4f8c2c85891aa772507ea248f2d27a7dba89f62e9ce82b62c64"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/forgetting_attn/__init__.py",
+    "sha256": "2908aceaca3cf9509067b701d876eab052caeb282acf9a2327a0e8fcc81444a6"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/forgetting_attn/parallel.py",
+    "sha256": "183334a6796863607842dff49fd7352d59dba7a60dbcc3cbe672355af5dc0c67"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_product/__init__.py",
+    "sha256": "ab7a9b9169d8f792ec8accdbe3e33a712ca9f5b689cb6ff7f930a8c6649a16ea"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_product/chunk.py",
+    "sha256": "95cf14f4a3ee36c6f831d82a8b596bd43ff2ea3aa64e5e7d7285c2b200086bb4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_product/chunk_deltaproduct_h.py",
+    "sha256": "d7674e14be2f1e7e2ecf881a3715ecf32848c971eca54b2a56c442efe94bca78"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_product/chunk_deltaproduct_o.py",
+    "sha256": "ffb41bbd828f36052941cf36a70e09dea9ebb971d169c1bfa0fe4ead9c122729"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_product/chunk_ref.py",
+    "sha256": "5605b22b45a34b79aa92ca82cd78bf4da5627acc27fca4282aeca73e9b54eab1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_product/naive.py",
+    "sha256": "b299a36b45117b2d05848e36743e19b365ba647429397899365cad2ee723bba8"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_rule/__init__.py",
+    "sha256": "290fafb655691927cba4b09f3303fea7a6e1caabdf2c496cf25e7f2cba189873"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_rule/chunk.py",
+    "sha256": "a02c8616492f4a47362063ec2fba23ed560c944259f03f59f27f9af5c7be8958"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_rule/fused_recurrent.py",
+    "sha256": "5dc380064ab3a15a6e549a3c58ee0b925cf4554a0c82d01d3ceb65228e8afd33"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gated_delta_rule/wy_fast.py",
+    "sha256": "d496898587c6bd8362c97c23e4e5b59e55630b241270b3ea6a97e52a29db088a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/README.md",
+    "sha256": "6bef5b7e7776f9f5da72c91f9f827f22e619a4dfb9adc70394aeac16b0b33457"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/__init__.py",
+    "sha256": "97574f759ed240e345d95f05258c46dfb8b79714c7d2e8d2c46d0c02228ba619"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/__init__.py",
+    "sha256": "47feb5569bbccf74e61eb7d126c88d77e3706806d7d8052192623148c3237910"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/chunk.py",
+    "sha256": "d21f8a1745ceec87aa68302daf3658affd97dfab57a1ec7121e3b97d0fbb9629"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/chunk_A_bwd.py",
+    "sha256": "4a0eadf51fd562f259b0077f5df2e894dbb40114b616c243cfb428793cb441f8"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/chunk_A_fwd.py",
+    "sha256": "3ac51b68dbd567eaeaff2e1e64b556668a49408f4b422b2b9f4b7216ed81e2d4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/chunk_h_bwd.py",
+    "sha256": "47483f62677c0aa5974b3d3dbc800571e07b23c9aa0796d9407de7cbd237862f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/chunk_h_fwd.py",
+    "sha256": "6fc2b447623bc1226aac7ccdc9cb19916cc9f61008ced5b9b3440a5b7be30c78"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/chunk_o_bwd.py",
+    "sha256": "c32c80830c6431b2bcf6d0945bacdaefa511ac116fe6641913c3a4f14b210dbb"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/chunk_o_fwd.py",
+    "sha256": "ccaf00567cd051eb499bd1ce1d46c4a6160834b873d11f6bf67e90d6933a8d74"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/fused_recurrent.py",
+    "sha256": "4a519ce07df3ce40320b695bdbc878d18b6d27fe5bbed9fdf23d17ce33b05fec"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/naive.py",
+    "sha256": "4f3e17669bdc4e5c155635fa32bae6ae0176339feab64c56a66c03b2bfec17ea"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/wy_fast_bwd.py",
+    "sha256": "0de2d14ce0edf8e9adc1fe4876f57c7ab4f71ccbef2bce9916091a26cb08cf92"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/dplr/wy_fast_fwd.py",
+    "sha256": "f8dcb2b01f58c3422956a17130e40964c0eda3d06fe8c64f4775f00435ae8afe"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/iplr/__init__.py",
+    "sha256": "d7b3cabb278e122beca282d42f3e283adf858338f767591b83e44059a09b1167"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/iplr/chunk.py",
+    "sha256": "024f2f7277d0cee63673d9d62d14a2e4e05216384172e8ce23b83f8a9b15b247"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/iplr/fused_recurrent.py",
+    "sha256": "5a1543e47b315443e86fe50114364065bc71e70b4698df099be43d167fe8d34a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/iplr/naive.py",
+    "sha256": "889e9d3829eee5acaf7f0aaa862eaf102be64427cea30ad610558eb80080d00f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/generalized_delta_rule/iplr/wy_fast.py",
+    "sha256": "513da66a8a9f3e677cb40e07b5248ce73ed6df50229dfbf51e0b81581caff883"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gla/__init__.py",
+    "sha256": "7d62089cd6f64f32048a4078f13a83c73b90a667dcfb2bae773c825930ebf4a2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gla/chunk.py",
+    "sha256": "c9c63a43aac52c043b0655df7237d890513a2d960c598110cef5b14af28aa462"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gla/fused_chunk.py",
+    "sha256": "7ba4e7b5cf781ef1117c19700bfe9b02613176341f982b469d19fd16112ac0f1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gla/fused_recurrent.py",
+    "sha256": "4d7fe56d7abc08befe64c6e9886be406ff453f0507b9c690cfe3cdb21dd67809"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gla/naive.py",
+    "sha256": "ff00ae27619a65f7f7e90364d6a8796bd4cff921d7f92754e3ca20d9c35da20e"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gsa/__init__.py",
+    "sha256": "f25ddfad93052d9616ad572327ed14bac2681e469a50e2c04bdce8bdb735d515"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gsa/chunk.py",
+    "sha256": "256f459829ba2ca8ba2950a3057ef5e0314330531fb85426757504d5bb35fcf3"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gsa/fused_recurrent.py",
+    "sha256": "140ff38103f1870906c62167f59febc8e4886926443a04d771ec60cf1472d3f7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/gsa/naive.py",
+    "sha256": "2a04a4780d1c0945ab0609abe4619ee1f32b932faf3cd6e5ea12830aa1a33025"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/hgrn/__init__.py",
+    "sha256": "0f3d7979c37742565c6b13bb1fbc2a727a750fd0bec5bc8e704495d769d0eb18"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/hgrn/chunk.py",
+    "sha256": "5a0052ad53b2854c24cb5aebec0abc8e5b18c6e92a8dc8442b535420bbf4bb03"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/hgrn/fused_recurrent.py",
+    "sha256": "a17471de2da702037b47fced910f0cf5e0532970896b8e3460b5b155206f7675"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/hgrn/naive.py",
+    "sha256": "ec9207609da6bc2e56493f73766263c734adc3730bb1255698d59c306331504d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/lightning_attn/__init__.py",
+    "sha256": "d54a4e637c9be2510e50039b64be32b406ebbf1d74a4a8676832de18ddb537b3"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/lightning_attn/chunk.py",
+    "sha256": "b0482240b5b3ad2d30d9c493ff5dfde135243ab9c2ca779c7c3d5bd4027d27f7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/lightning_attn/fused_recurrent.py",
+    "sha256": "639294f4a55d8ee352cbbb1583b4a33e72e064b042c5b23df3c7c5b4540632e2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/linear_attn/__init__.py",
+    "sha256": "e784bc4caae6ded5e35a469ad65337ee6fb4d170da1a3333ac7a3ba9f0afc3c5"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/linear_attn/chunk.py",
+    "sha256": "77f1f65bc08814cd9efc5ade33c54b4647a3b3a8bbaa2e8a009a1a445b87970a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/linear_attn/fused_chunk.py",
+    "sha256": "0d617d99c8ff0d0ddd743a8f6ac00cd1d3ea4e155b5e8c1347c336cfc7cb86f2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/linear_attn/fused_recurrent.py",
+    "sha256": "a59fbf1ff2132c92680d01749e44d5a18f629e928150eaa38287b3b20519850f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/linear_attn/naive.py",
+    "sha256": "03234c05df989548d5eb3dc84d7a2ac906b11cd8ed691cb4dad305484636a660"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/linear_attn/utils.py",
+    "sha256": "004955d304867bc4b63003913d659b985db277c8df00f1399d3369b9a86e46b4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/log_linear_attn/__init__.py",
+    "sha256": "d3bc99d64ce3df9734e5b492296f0b589c91ea7a8d10d0d76320ab67d5d342b6"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/log_linear_attn/chunk.py",
+    "sha256": "138a8f3aa99f501e3be43a7aa9d1f82f6987c05cccf11f12a4efeae2ff967e5c"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/log_linear_attn/naive.py",
+    "sha256": "14c62815feec36d65c5d645b099688da3826251d8f5b06b9347d80c0e83f37cf"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/__init__.py",
+    "sha256": "a68919af531b8836704583c5375dd8861f145ff8624ec2e10cbd3661fcad128f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/chunk.py",
+    "sha256": "6228704062d3c6b2e15f3a7cd40544a95601aeb5332e45a40b3835c0f4c58fa7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/chunk_cg_solver_bwd.py",
+    "sha256": "4a535fa34509f7ffea5c75623d42ac5bfdfcb8e66d04f7c5e36aec64373e0141"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/chunk_cg_solver_fwd.py",
+    "sha256": "06cef49a6309982e67f11a58fb88c0ce11baaf4b3df84bd390ccc2ad4716c5ac"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/chunk_h_fwd.py",
+    "sha256": "e3df334a29d7f1a774db04c8480db0121c966fa564170c54898d714f453f46cf"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/chunk_h_kk_intra_bwd.py",
+    "sha256": "3631f58dd15076a24fc6c2fb104348ffcb2413fa0fb0d5bfd9c8a6bbc8b91648"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/chunk_h_kv_intra_bwd.py",
+    "sha256": "62469b9382b53e9e330039b347fbd7e138034cff54e4c0a4a910abb8ec39cfe1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/chunk_h_kv_intra_bwd_separate.py",
+    "sha256": "63c3935f784d8627cb3c3447d9fc14ee7f3c847f83a55f0362f8644bdc432920"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/decoding_one_step.py",
+    "sha256": "fc73b7c410e82a1ee35e40129ea049de019bf15784953666f13e53044e39cf98"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/mesa_net/naive.py",
+    "sha256": "c3f08593c0676186e679fd103a66710061f191376803de8560e3cb6c434f9aa5"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/moda/__init__.py",
+    "sha256": "5a41756f73349660ab58167af92fad8a297e14c5a41b4904a5d2a8ec1f0e809c"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/moda/fda_v12.py",
+    "sha256": "b5cc53395f806c4cc9cdff3cf34b26047c12c9bb2c43be0ddb3788bb70ad9be2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/moda/moda_v14.py",
+    "sha256": "e7e0c3592c35e6a710297a6e49d5d5c1f8aa81663eea6ddaaeec1402c46d9df0"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/moda/moda_v16.py",
+    "sha256": "0d52d2f27e2a75b82651128d47589a792d139369ca4b1032a4f61da728248cfa"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/moda/moda_v17.py",
+    "sha256": "e182dc91e2cafb4ebf8fd824f3988d6de184e1ef542e684c5b5b740ce58ca48a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/nsa/__init__.py",
+    "sha256": "04cf1662381982e3e6df1471feea53015f9eef33b37fec90e0aa5f2619e285b7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/nsa/compression.py",
+    "sha256": "c1163932dd7bfc074c6bdc76e36e97ad6dbd3587b57a364a48bbd8fc60a69b6c"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/nsa/naive.py",
+    "sha256": "af1429ece2ac3da63fda6c013fbf17aa08e83e8cfdadb31823ee5bb8f365c3df"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/nsa/parallel.py",
+    "sha256": "54f1304095eb0465df08a3680bd9f80216f7701c3ec7cef80221f7bb086437ed"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/nsa/utils.py",
+    "sha256": "956245c5a674fed41a7df3fed04febf0f9cb587599718ed000eb261de7e167ce"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/__init__.py",
+    "sha256": "7fbd5fca13198d84fcd372dbbd832711b01d3a9124dbf1595fbf3188ea3c792c"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/cumprod_householder_bwd.py",
+    "sha256": "b0efa085ad331468b14cfca592f6438b20e3469dc5245fbcc1d187c10647ac5d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/cumprod_householder_fwd.py",
+    "sha256": "b02463f69f77a42d4b08b00e51bf2b1ae8e0b3ff91cb2b11348f643074079b24"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/intra_chunk_preprocess_bwd.py",
+    "sha256": "1db0e3850203cbd57ea502b531f20d1cb0648513d2390a60db95fbf0df30537f"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/intra_chunk_preprocess_bwd_prepare.py",
+    "sha256": "3f1c2efafd052f5b11eacb6ab9f80b3f6ae616dab6eab93f650e42f2d47f6c71"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/intra_chunk_preprocess_fwd.py",
+    "sha256": "153fa09c051968dba60e367dc8f1f82aefb747d94cc5fe543333e614165b79a3"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/parallel.py",
+    "sha256": "161c2c6deabe561aaea85b5c59289b5b71f98ab0505c2be34e97b3abfb0aa07a"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/parallel_path_bwd_inter_dkv.py",
+    "sha256": "221acae5520c349a301a8e87bdc3c5d6898ad875308308517c873bb3552db430"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/parallel_path_bwd_inter_dqh.py",
+    "sha256": "87cec84e091afdc89effe699934e455d1f10c26cb150b9d237d200651f03e4c0"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/parallel_path_bwd_intra.py",
+    "sha256": "6944a7d5cb6e6e1f983c9d3456d7f42808691c450bae4b139df1332cefaf2930"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/parallel_path_fwd.py",
+    "sha256": "82554120a8d64e0086f07e9746f8c1ef5807a97e478cf580066f1b62bd3c4840"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/prepare_k_cache.py",
+    "sha256": "2d1c21f0f6d4de26f83288982683fe9321e722f4004b5babe4283590d1329947"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/path_attn/transform_q.py",
+    "sha256": "1c1076be18b58a2d8b857504840e7490db64cba059a9ee3bdcae4bb79d040368"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rebased/__init__.py",
+    "sha256": "abcf78ee51ec47fabb86e2aab655390d04e48d752c63096e9d97d2c676c5d2b4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rebased/naive.py",
+    "sha256": "a7b31751abfc31d116b9254807378ee6376d4d073eadf046e45ffaaeadba4cd9"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rebased/parallel.py",
+    "sha256": "709c514b173cb0b2b3527373420d6df039445c9e928d0544d0fedeb6427bf967"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/retention/__init__.py",
+    "sha256": "0005091ff3694ef69167a1d829d7ff82ab956e48fa2537aeb7fb7611861c7ecb"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/retention/chunk.py",
+    "sha256": "535f3134ae970c65e7caf7d3a5788c3ccb2427e2832aa6b4f3e84d2ea35c7ec4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/retention/fused_chunk.py",
+    "sha256": "87bb31440ba1c77b01eb06ef8c0824201e342952c958e103604c2ad525bbb6fb"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/retention/fused_recurrent.py",
+    "sha256": "098fc9e83ce7a8736799ec4ed902dfb192deaa8a33a034f2dc5e120c978a93d0"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/retention/naive.py",
+    "sha256": "8ddbd4f02a0c969666784717da5398e69901335402ec726443163132a66d3558"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/retention/parallel.py",
+    "sha256": "e5dd99bd3d6af89dfb2ff13d09170d05269c91b5879432bc8d7bc464dbbda3fc"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv4/__init__.py",
+    "sha256": "74371b0859c4eaa48f9deee810ead747eb02ef9c59e42069031090663f4f5680"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv4/fused_recurrent.py",
+    "sha256": "d583e7049fa769705d9a0a01a26effbcd2a882fd4b8a2c3cf67673beb79ae277"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv6/__init__.py",
+    "sha256": "e34ed7fa3514c94499b28ff0c50fc4ab219986cb380720a09cf6b78892e0471b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv6/chunk.py",
+    "sha256": "798ef0811edadae8a89688e89f71a863819445261fc83dff933ff99d253f0bb1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv6/chunk_naive.py",
+    "sha256": "1d6ab0829148d3c09f11452e23d091e340a4176cb31bbe95ee1a2ec1b07ca4cc"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv6/fused_recurrent.py",
+    "sha256": "f8ecf2abdef1883d122be48b1913455e37dc3d059f4505cf2794841bba7caa70"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv6/recurrent_naive.py",
+    "sha256": "180ff8eee2e53315e6f2ae2553bdfdb1e7455de03c2d1e762778d4edd5ce85c6"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv7/RWKV7(Goose).md",
+    "sha256": "5eb6a36882c28976c2feeabcd3ce01ad87465edd04d8efc3230c7db2629ed2f1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv7/__init__.py",
+    "sha256": "b49de7fd6724bb9cd5d94a678addf54f98eb1df8e859c009fa4c98444e475f57"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv7/channel_mixing.py",
+    "sha256": "11070ac0c8c190cbafea8968e4af892b45801ed1add57816190641119edd1f2c"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv7/chunk.py",
+    "sha256": "8e0cdcdaf81446dea75d0c3f1b9aa60af8cb73e0125a944ca8b59cc67af4fee8"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv7/fused_addcmul.py",
+    "sha256": "160f3e3d6300a580f01c0987ae096e813b8fc94b456b4c35eeb81e8b0c0211a7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv7/fused_k_update.py",
+    "sha256": "f614f8ba6e8c1306f23af6cdb7dee332d7bd25e8fd18755aa5d3c4005287b734"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv7/fused_recurrent.py",
+    "sha256": "7f3ca0bca893a8319d55c4b080743445f5159f46a828bdd9c65ce93eff88fbb9"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/rwkv7/gate_output_correction.py",
+    "sha256": "42f07ac3570255846a62b71f29357137201db5af2bc8abbd54113fb7ac0743a4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/simple_gla/README.md",
+    "sha256": "a85974fadbedec6ef523f794a1f425a003749a72b0462d72317963906aee0528"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/simple_gla/__init__.py",
+    "sha256": "d8160654898ec89dc9b9fec2c80725269897f175ac29019e8228a3db144910a1"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/simple_gla/chunk.py",
+    "sha256": "6163673ba69579c98e5ef9f4482a4d50b6940a06230c14305174aa9ffa5861a9"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/simple_gla/fused_chunk.py",
+    "sha256": "30cb9d4449783e7cc02928200c3a01d1043d51a71a6311450c4752326c784881"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/simple_gla/fused_recurrent.py",
+    "sha256": "2b086eec27dfc40875b79d5825f32e46637651cb496c647a0bd5a81ccea0ecfd"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/simple_gla/naive.py",
+    "sha256": "cbd63d715d542ab4aeb6718d81b6fb6d07e52af9f94968e2aa64b37ab496f6e7"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/simple_gla/parallel.py",
+    "sha256": "be00762116e6a5e51eb59edd268c004a497145d6f50826d6344252eb3f3796a2"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/titans/__init__.py",
+    "sha256": "ded2fbf9a48145742be83007f209d01743899a38d3da51b2f439083e860a1c14"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/titans/log_impl.py",
+    "sha256": "9537648685d484a2f46e277a8274913e0bc992cb5f3b92adf3589e5f3d22d5f0"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/titans/naive.py",
+    "sha256": "e4f5cf0cf9819b5cbd9da3fecea8c66f4a1cf1e470599f58b6053107da225b8d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/ttt/__init__.py",
+    "sha256": "5121e383ec8ee75f87b37691e5337bbff5627614737fdbe0afbbdda05a613457"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/ttt/chunk.py",
+    "sha256": "2e95898be3ceb4e77cec011ee16e0e40993e4ffe8402378dd16863b371de48d5"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/ttt/fused_chunk.py",
+    "sha256": "0937cde34742d59ece4463ad1874c611c1fd364313dc04310b938625cd754f41"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/ttt/naive.py",
+    "sha256": "b817746b1f05808c0e1eb5ddbfa93af19d75dcb5f2019bc887bfd959c9440338"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/__init__.py",
+    "sha256": "ec7474291730875454dd6b55596af58a6e965aab9ea5572552ae15ebb08538ca"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/constant.py",
+    "sha256": "763ad76299dbc5f8c8546fb089f8ec4e7e538b0dbeb01d60c077b760e4b71c14"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/cumsum.py",
+    "sha256": "04bbd7c44cc263fcd01bcb69f2356a09d0fd51646f769a7ead65dea5bfa2777b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/index.py",
+    "sha256": "526b0f2fdb74f6f993634932e01619c35fb6316184f987405c13322e251ef723"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/logcumsumexp.py",
+    "sha256": "2adc089b59ae7852a02ca92693bc5c9340783531a957bbfa68e685ded39dd659"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/logsumexp.py",
+    "sha256": "4a54831fae372d63279622c16511c5f336e2c2dd7e9aa0f3edd7fad06e4b9344"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/matmul.py",
+    "sha256": "ea23ea811d71430535bac6b7c107c81ebc8152d4cef9bec0b24b539c63440611"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/op.py",
+    "sha256": "aa486f997617f732b7face095ac04f4c0941f6848481f49c124d0ff333fafe3b"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/pack.py",
+    "sha256": "861e55a7e125801112aff58275dbba7031adaf785fca8d381b944faaba1b2619"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/pooling.py",
+    "sha256": "c89f3c3fe9d3bf078d8e435e6d72fe091d2643bea52dfd67277ff19190b2000d"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/softmax.py",
+    "sha256": "1a4c3e4965d90081d4e68ab49dd880e32d6c0d61f66d56ae0f47c2bfa6587fc9"
+  },
+  {
+    "file": "third_party/moda_triton/fla/ops/utils/solve_tril.py",
+    "sha256": "e2dab8f34a401ad251cd5b91a93b8702c5293fe40d94f7e326a1605acf395ff4"
+  },
+  {
+    "file": "third_party/moda_triton/fla/utils.py",
+    "sha256": "1cad7d8d8f1c7e04c62d4f9f2e6e20d6264089b4fb20032d234de9a14c4407c1"
+  }
+]

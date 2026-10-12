@@ -1,0 +1,96 @@
+output_model_name: lewm_full_ablation
+subdir: null
+num_workers: 6
+train_split: 0.9
+seed: 0
+img_size: 224
+embed_dim: 192
+history_size: 3
+num_preds: 1
+trainer:
+  max_epochs: 10
+  devices: 8
+  accelerator: gpu
+  precision: bf16
+  gradient_clip_val: 1.0
+loader:
+  batch_size: 64
+  num_workers: ${num_workers}
+  persistent_workers: true
+  prefetch_factor: 3
+  pin_memory: true
+optimizer:
+  type: AdamW
+  lr: 0.0002
+  weight_decay: 0.001
+loss:
+  sigreg:
+    weight: 0.09
+    kwargs:
+      knots: 17
+      num_proj: 1024
+wandb:
+  enabled: false
+model:
+  _target_: jepa.JEPA
+  encoder:
+    _target_: moda_module.MoDAVisualEncoder
+    img_size: ${img_size}
+    patch_size: 14
+    hidden_size: ${embed_dim}
+    depth: 12
+    heads: 3
+    dim_head: 64
+    mlp_dim: 512
+    dropout: 0.0
+    emb_dropout: 0.0
+    use_moda: true
+    depth_start_layer: 1
+    chunk_visible: false
+    depth_cache_gate_init: 1.0
+    use_cls_token: true
+    activation_checkpointing: true
+  predictor:
+    _target_: module.ARPredictor
+    num_frames: ${history_size}
+    input_dim: ${embed_dim}
+    hidden_dim: ${embed_dim}
+    output_dim: ${embed_dim}
+    depth: 6
+    heads: 3
+    mlp_dim: 512
+    dim_head: 64
+    dropout: 0.1
+    emb_dropout: 0.0
+  action_encoder:
+    _target_: module.Embedder
+    input_dim: 25
+    emb_dim: ${embed_dim}
+  projector:
+    _target_: module.MLP
+    input_dim: ${embed_dim}
+    output_dim: ${embed_dim}
+    hidden_dim: 2048
+    norm_fn:
+      _target_: torch.nn.BatchNorm1d
+      _partial_: true
+  pred_proj:
+    _target_: module.MLP
+    input_dim: ${embed_dim}
+    output_dim: ${embed_dim}
+    hidden_dim: 2048
+    norm_fn:
+      _target_: torch.nn.BatchNorm1d
+      _partial_: true
+data:
+  dataset:
+    name: ogbench/puzzle3x3_train
+    num_steps: 4
+    frameskip: 5
+    keys_to_load:
+    - pixels
+    - action
+    - observation
+    keys_to_cache:
+    - action
+    - observation

@@ -1,0 +1,576 @@
+{
+  "reacher": {
+    "relative_file": "reacher.h5",
+    "bytes": 98905882624,
+    "columns": {
+      "action": {
+        "shape": [
+          2010000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "ep_idx": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "int32"
+      },
+      "ep_len": {
+        "shape": [
+          10000
+        ],
+        "dtype": "int32"
+      },
+      "ep_offset": {
+        "shape": [
+          10000
+        ],
+        "dtype": "int64"
+      },
+      "finger_pos": {
+        "shape": [
+          2010000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "id": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "int64"
+      },
+      "observation": {
+        "shape": [
+          2010000,
+          6
+        ],
+        "dtype": "float32"
+      },
+      "pixels": {
+        "shape": [
+          2010000,
+          224,
+          224,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      "qpos": {
+        "shape": [
+          2010000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "qvel": {
+        "shape": [
+          2010000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "render_time": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "float64"
+      },
+      "reward": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "float64"
+      },
+      "score": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "float64"
+      },
+      "step_idx": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "int64"
+      },
+      "success": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "float64"
+      },
+      "target_pos": {
+        "shape": [
+          2010000,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "terminated": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "bool"
+      },
+      "truncated": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "bool"
+      }
+    }
+  },
+  "tworoom": {
+    "relative_file": "tworoom.h5",
+    "bytes": 12775849984,
+    "columns": {
+      "action": {
+        "shape": [
+          920809,
+          2
+        ],
+        "dtype": "float32"
+      },
+      "distance_to_target": {
+        "shape": [
+          920809
+        ],
+        "dtype": "float64"
+      },
+      "ep_idx": {
+        "shape": [
+          920809
+        ],
+        "dtype": "int32"
+      },
+      "ep_len": {
+        "shape": [
+          10000
+        ],
+        "dtype": "int32"
+      },
+      "ep_offset": {
+        "shape": [
+          10000
+        ],
+        "dtype": "int64"
+      },
+      "id": {
+        "shape": [
+          920809
+        ],
+        "dtype": "int64"
+      },
+      "observation": {
+        "shape": [
+          920809,
+          10
+        ],
+        "dtype": "float64"
+      },
+      "pixels": {
+        "shape": [
+          920809,
+          224,
+          224,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      "pos_agent": {
+        "shape": [
+          920809,
+          2
+        ],
+        "dtype": "float32"
+      },
+      "pos_target": {
+        "shape": [
+          920809,
+          2
+        ],
+        "dtype": "float32"
+      },
+      "proprio": {
+        "shape": [
+          920809,
+          2
+        ],
+        "dtype": "float32"
+      },
+      "render_time": {
+        "shape": [
+          920809
+        ],
+        "dtype": "float64"
+      },
+      "reward": {
+        "shape": [
+          920809
+        ],
+        "dtype": "float64"
+      },
+      "step_idx": {
+        "shape": [
+          920809
+        ],
+        "dtype": "int64"
+      },
+      "terminated": {
+        "shape": [
+          920809
+        ],
+        "dtype": "bool"
+      },
+      "truncated": {
+        "shape": [
+          920809
+        ],
+        "dtype": "bool"
+      }
+    }
+  },
+  "cube": {
+    "relative_file": "ogbench/cube_single_expert.h5",
+    "bytes": 101942558720,
+    "columns": {
+      "action": {
+        "shape": [
+          2010000,
+          5
+        ],
+        "dtype": "float32"
+      },
+      "control": {
+        "shape": [
+          2010000,
+          7
+        ],
+        "dtype": "float64"
+      },
+      "ep_idx": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "int32"
+      },
+      "ep_len": {
+        "shape": [
+          10000
+        ],
+        "dtype": "int32"
+      },
+      "ep_offset": {
+        "shape": [
+          10000
+        ],
+        "dtype": "int64"
+      },
+      "id": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "int64"
+      },
+      "observation": {
+        "shape": [
+          2010000,
+          28
+        ],
+        "dtype": "float64"
+      },
+      "pixels": {
+        "shape": [
+          2010000,
+          224,
+          224,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      "prev_qpos": {
+        "shape": [
+          2010000,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "prev_qvel": {
+        "shape": [
+          2010000,
+          20
+        ],
+        "dtype": "float64"
+      },
+      "privileged_block_0_pos": {
+        "shape": [
+          2010000,
+          3
+        ],
+        "dtype": "float64"
+      },
+      "privileged_block_0_quat": {
+        "shape": [
+          2010000,
+          4
+        ],
+        "dtype": "float64"
+      },
+      "privileged_block_0_yaw": {
+        "shape": [
+          2010000,
+          1
+        ],
+        "dtype": "float64"
+      },
+      "privileged_target_block": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "int64"
+      },
+      "privileged_target_block_pos": {
+        "shape": [
+          2010000,
+          3
+        ],
+        "dtype": "float64"
+      },
+      "privileged_target_block_yaw": {
+        "shape": [
+          2010000,
+          1
+        ],
+        "dtype": "float64"
+      },
+      "privileged_target_task": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "object"
+      },
+      "proprio_effector_pos": {
+        "shape": [
+          2010000,
+          3
+        ],
+        "dtype": "float64"
+      },
+      "proprio_effector_yaw": {
+        "shape": [
+          2010000,
+          1
+        ],
+        "dtype": "float64"
+      },
+      "proprio_gripper_contact": {
+        "shape": [
+          2010000,
+          1
+        ],
+        "dtype": "float64"
+      },
+      "proprio_gripper_opening": {
+        "shape": [
+          2010000,
+          1
+        ],
+        "dtype": "float64"
+      },
+      "proprio_gripper_vel": {
+        "shape": [
+          2010000,
+          1
+        ],
+        "dtype": "float64"
+      },
+      "proprio_joint_pos": {
+        "shape": [
+          2010000,
+          6
+        ],
+        "dtype": "float64"
+      },
+      "proprio_joint_vel": {
+        "shape": [
+          2010000,
+          6
+        ],
+        "dtype": "float64"
+      },
+      "qpos": {
+        "shape": [
+          2010000,
+          21
+        ],
+        "dtype": "float64"
+      },
+      "qvel": {
+        "shape": [
+          2010000,
+          20
+        ],
+        "dtype": "float64"
+      },
+      "render_time": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "float64"
+      },
+      "reward": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "float64"
+      },
+      "step_idx": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "int64"
+      },
+      "success": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "bool"
+      },
+      "target": {
+        "shape": [
+          2010000,
+          28
+        ],
+        "dtype": "float64"
+      },
+      "terminated": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "bool"
+      },
+      "time": {
+        "shape": [
+          2010000,
+          1
+        ],
+        "dtype": "float64"
+      },
+      "truncated": {
+        "shape": [
+          2010000
+        ],
+        "dtype": "bool"
+      }
+    }
+  },
+  "puzzle3x3": {
+    "relative_file": "ogbench/puzzle3x3_train.h5",
+    "bytes": 151136294408,
+    "columns": {
+      "action": {
+        "shape": [
+          1001000,
+          5
+        ],
+        "dtype": "float32"
+      },
+      "ep_idx": {
+        "shape": [
+          1001000
+        ],
+        "dtype": "int32"
+      },
+      "ep_len": {
+        "shape": [
+          1000
+        ],
+        "dtype": "int32"
+      },
+      "ep_offset": {
+        "shape": [
+          1000
+        ],
+        "dtype": "int64"
+      },
+      "observation": {
+        "shape": [
+          1001000,
+          46
+        ],
+        "dtype": "float64"
+      },
+      "pixels": {
+        "shape": [
+          1001000,
+          224,
+          224,
+          3
+        ],
+        "dtype": "uint8"
+      }
+    }
+  },
+  "pusht": {
+    "relative_file": "pusht_expert_train.h5",
+    "bytes": 46300921856,
+    "columns": {
+      "action": {
+        "shape": [
+          2336736,
+          2
+        ],
+        "dtype": "float32"
+      },
+      "ep_len": {
+        "shape": [
+          18685
+        ],
+        "dtype": "int32"
+      },
+      "ep_offset": {
+        "shape": [
+          18685
+        ],
+        "dtype": "int64"
+      },
+      "episode_idx": {
+        "shape": [
+          2336736
+        ],
+        "dtype": "int64"
+      },
+      "pixels": {
+        "shape": [
+          2336736,
+          224,
+          224,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      "proprio": {
+        "shape": [
+          2336736,
+          4
+        ],
+        "dtype": "float32"
+      },
+      "state": {
+        "shape": [
+          2336736,
+          7
+        ],
+        "dtype": "float32"
+      },
+      "step_idx": {
+        "shape": [
+          2336736
+        ],
+        "dtype": "int64"
+      }
+    }
+  }
+}
